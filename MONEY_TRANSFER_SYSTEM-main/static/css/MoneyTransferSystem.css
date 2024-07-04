@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.choice-box{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin: 5%;
+    /* padding: 5%; */
+    flex-wrap: wrap;
+}
+button{
+    font-size: x-large;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: cadetblue;
+    color: white;
+}
